@@ -1,0 +1,1000 @@
+ 1039  sh ./docker_configs/dockerfile.sh | docker build --build-arg APP_UID=$(id -u) -t ros_gaz_env --no-cache -f - .
+ 1040  docker-compose up -d
+ 1041  docker container exec -it inno20_eurobot_control_ros-master_1 bash
+ 1042  lspci
+ 1043  ls
+ 1044  cat docker-compose.yml 
+ 1045  cat docker-compose_nvidia.yml 
+ 1046  ls
+ 1047  ssh -Z app@localhost:2222
+ 1048  man ssh
+ 1049  ssh - app@localhost:2222
+ 1050  ssh -Y app@localhost:2222
+ 1051  docker container exec -it inno20_eurobot_control_ros-master_1 bash
+ 1052  ssh -Y app@localhost:2222
+ 1053  ssh -Y app@127.0.0.1:2222
+ 1054  ssh -Y app@127.0.0.1:22
+ 1055  ssh -Y app@127.0.0.1:2222
+ 1056  ssh -Y 127.0.0.1:2222
+ 1057  ssh 127.0.0.1:2222
+ 1058  ssh -Y app@127.0.0.1 -p 2222
+ 1059  cat docker_configs/dockerfile/00-workspace.Dockerfile 
+ 1060  ssh -Y app@127.0.0.1 -p 2222
+ 1061  docker-compose down
+ 1062  docker-compose kill
+ 1063  docker-compose rm
+ 1064  docker-compose up -d docker-compose_nvidia.yml 
+ 1065  docker-compose up -d -f docker-compose_nvidia.yml 
+ 1066  docker-compose -h docker-compose_nvidia.yml 
+ 1067  docker-compose -f docker-compose_nvidia.yml up -d
+ 1068  docker container exec -it inno20_eurobot_control_ros-master_1 bash
+ 1069  exit
+ 1070  rqt
+ 1071  exit
+ 1072  docker exec -it inno20_eurobot_control_ros-master_1 bash
+ 1073  exit
+ 1074  docker exec -it inno20_eurobot_control_ros-master_1 bash
+ 1075  docker exec -it inno20_eurobot_control_ros-master_1 bash
+ 1076  docker exec -it inno20_eurobot_control_ros-master_1 bash
+ 1077  cd EuroBot2020/inno20_eurobot_control
+ 1078  docker exec -it inno20_eurobot_control_ros-master_1 bash
+ 1079  exi
+ 1080  exit
+ 1081  кмшя
+ 1082  rviz
+ 1083  exit
+ 1084  roslaunch realsense2_camera rs_camera.launch
+ 1085  exit
+ 1086  lsb_release -a
+ 1087  sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo focal main" -u
+ 1088  rosconsole 
+ 1089  roslaunch realsense2_camera rs_camera.launch
+ 1090  realsense-viewer
+ 1091  modinfo uvcvideo | grep "version:"
+ 1092  sudo apt-get install librealsense2-dev
+ 1093  sudo apt-get install librealsense2-dbg
+ 1094  sudo apt-get install librealsense2-dev
+ 1095  sudo apt-get install librealsense2-dbg
+ 1096  modinfo uvcvideo | grep "version:"
+ 1097  sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
+ 1098  sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo focal main" -u
+ 1099  sudo apt-get install librealsense2-dkms
+ 1100  sudo apt-get install librealsense2-utils
+ 1101  realsense-viewer
+ 1102  modinfo uvcvideo | grep "version:"
+ 1103  realsense-viewer 
+ 1104  roslaunch realsense2_camera rs_camera.launch
+ 1105  rviz
+ 1106  roslaunch realsense2_camera rs_camera.launch
+ 1107  sudo apt update
+ 1108  rosversion -d
+ 1109  export ROS_VER=noetic 
+ 1110  sudo apt-get install ros-$ROS_VER-realsense2-camera
+ 1111  roslaunch realsense2_camera rs_camera.launch
+ 1112  rviz
+ 1113  roscore
+ 1114  sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
+ 1115  sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo focal main" -u
+ 1116  sudo apt-get install librealsense2-dkms
+ 1117  sudo apt-get install librealsense2-dbg
+ 1118  realsense-viewer
+ 1119  mkdir -p ~/catkin_ws/src
+ 1120  cd ~/catkin_ws/src/
+ 1121  ls
+ 1122  git clone https://github.com/IntelRealSense/realsense-ros.git
+ 1123  cd realsense-ros/
+ 1124  git checkout `git tag | sort -V | grep -P "^2.\d+\.\d+" | tail -1`
+ 1125  cd ..
+ 1126  catkin_init_workspace
+ 1127  cd ..
+ 1128  catkin_make clean
+ 1129  catkin_make -DCATKIN_ENABLE_TESTING=False -DCMAKE_BUILD_TYPE=Release
+ 1130  catkin_make install
+ 1131  ls
+ 1132  cd src/
+ 1133  ls
+ 1134  roscore 
+ 1135  systemctl restart gdm
+ 1136  sudo docker ps
+ 1137  sudo docker stop b3387df07786
+ 1138  sudo docker rm b3387df07786
+ 1139  sudo docker ps
+ 1140  cd EuroBot2020/inno20_repository/
+ 1141  sh ./docker_configs/dockerfile.sh | docker build -t inno20_eurobot_control_ros-master -f - .
+ 1142  docker-compose  -f docker-compose_nvidia.yml up -d
+ 1143  docker exec -it inno20_eurobot_control_ros-master_1 bash
+ 1144  sudo docker ps
+ 1145  docker exec -it inno20_repository_ros-master_1 bash
+ 1146  exit
+ 1147  roslaunch realsense2_camera rs_camera.launch
+ 1148  roscore
+ 1149  roslaunch realsense2_camera rs_camera.launch
+ 1150  docker exec -it inno20_repository_ros-master_1 bash
+ 1151  docker exec -it inno20_repository_ros-master_1 bash
+ 1152  docker exec -it inno20_repository_ros-master_1 bash
+ 1153  docker exec -it inno20_repository_ros-master_1 bash
+ 1154  roslaunch realsense2_camera rs_camera.launch
+ 1155  rviz
+ 1156  roscore
+ 1157  exit
+ 1158  roslaunch realsense2_camera rs_camera.launch
+ 1159  realsense-viewer
+ 1160  exit
+ 1161  clear
+ 1162  docker exec -it inno20_repository_ros-master_1 bash
+ 1163  exit
+ 1164  docker exec -it inno20_repository_ros-master_1 bash
+ 1165  exit
+ 1166  cd EuroBot2020/inno20_eurobot_control-new_architecture2/
+ 1167  docker-comopose up -d -f docker-compose_nvidia.yaml
+ 1168  docker-comopose up -d -f docker-comopose_nvidia.yaml
+ 1169  docker-comopose up -d -f docker-compose_nvidia.yaml
+ 1170  yelsh, [23.02.21 22:00]
+ 1171  docker-compose up -d -f docker-compose_nvidia.yaml
+ 1172  docker -a
+ 1173  docker list
+ 1174  docker list -a
+ 1175  docker container ls
+ 1176  docker container stop 12cac593c032
+ 1177  docker container ls
+ 1178  docker container kill 12cac593c032
+ 1179  clear
+ 1180  docker-compose  -f docker-compose_nvidia.yml up -d
+ 1181  docker-compose up -d -f docker-compose_nvidia.yaml
+ 1182  docker-compose -f docker-compose_nvidia.yaml up -d
+ 1183  ls
+ 1184  cd docker
+ 1185  ls
+ 1186  cd ..
+ 1187  cd..
+ 1188  cd ..
+ 1189  cd inno20_repository/
+ 1190  sls
+ 1191  ls
+ 1192  docker-compose up -d -f docker-compose_nvidia.yaml
+ 1193  docker-compose  -f docker-compose_nvidia.yml up -d
+ 1194  docker exec -it inno20_repository_ros-master_1 bash
+ 1195  exit
+ 1196  systemctl restart gdm
+ 1197  realsense-viewer 
+ 1198  ls /dev/
+ 1199  ls /dev/ > a
+ 1200  ls /dev/ > b
+ 1201  diff a b
+ 1202  cd EuroBot2020/inno20_repository/
+ 1203  docker-compose down docker-compose_nvidia.yml 
+ 1204  docker-compose -f docker-compose_nvidia.yml down
+ 1205  docker-compose -f docker-compose_nvidia.yml up -d
+ 1206  ls /dev
+ 1207  ls /dev | grep iio
+ 1208  docker-compose -f docker-compose_nvidia.yml up -d
+ 1209  docker exec -it bash
+ 1210  docker exec -it inno20_repository_ros-master_1 bash
+ 1211  lsusb
+ 1212  /dev/bus/usb/002/004
+ 1213  stat /dev/bus/usb/002/004
+ 1214  docker-compose -f docker-compose_nvidia.yml up -d
+ 1215  docker exec -it inno20_repository_ros-master_1 bash
+ 1216  docker-compose -f docker-compose_nvidia.yml up -d
+ 1217  docker exec -it inno20_repository_ros-master_1 bash
+ 1218  sudo apt-get install simplescreenrecorder
+ 1219  docker ls
+ 1220  docker --help
+ 1221  docker container ls -a
+ 1222  docker stop inno20_repository_ros-master_1 
+ 1223  docker container ls -a
+ 1224  docker kill 42fb6ed50a77
+ 1225  docker container ls -a
+ 1226  docker container ls
+ 1227  cd EuroBot2020/inno20_repository/
+ 1228  docker-compose -f docker-compose_nvidia.yml up -d
+ 1229  docker exec -it inno20_repository_ros-master_1 bash
+ 1230  systemctl restart gdm
+ 1231  docker exec -it inno20_repository_ros-master_1 bash
+ 1232  rviz
+ 1233  roslaunch rviz rviz
+ 1234  docker exec -it inno20_repository_ros-master_1 bash
+ 1235  docker exec -it inno20_repository_ros-master_1 bash
+ 1236  systemctl restart gdm
+ 1237  docker exec -it inno20_repository_ros-master_1 bash
+ 1238  docker exec -it inno20_repository_ros-master_1 bash
+ 1239  docker exec -it inno20_repository_ros-master_1 bash
+ 1240  mkdir rotate_point_cloud
+ 1241  cd rotate_point_cloud/
+ 1242  mkdir robot1_mock
+ 1243  mc
+ 1244  subl CMakeLists.txt 
+ 1245  subl package.xml 
+ 1246  rviz
+ 1247  subl main.xml 
+ 1248  subl CMakeLists.txt 
+ 1249  subl package.xml 
+ 1250  subl sim_spawn.launch 
+ 1251  git status
+ 1252  git checkout Roman_Voronov_point_cloud_flip 
+ 1253  git status
+ 1254  git checkout master 
+ 1255  git status
+ 1256  subl sim_spawn.launch 
+ 1257  subl CMakeLists.txt 
+ 1258  subl package.xml 
+ 1259  git status
+ 1260  git checkout -b update_realsense
+ 1261  git status
+ 1262  cd EuroBot2020/inno20_repository/
+ 1263  mkdir src
+ 1264  cd src/
+ 1265  mkdir common
+ 1266  cd common/
+ 1267  mkdir wrappers
+ 1268  cd wrappers/
+ 1269  cd .. ..
+ 1270  cd..
+ 1271  cd ..
+ 1272  mkdir robot1
+ 1273  cd robot1/
+ 1274  mc
+ 1275  docker exec -it inno20_repository_ros-master_1 bash
+ 1276  cd EuroBot2020/
+ 1277  docker exec -it inno20_repository_ros-master_1 bash
+ 1278  docker container ls
+ 1279  docker stop inno20_repository_ros-master_1 
+ 1280  docker container ls
+ 1281  sh ./docker_configs/dockerfile.sh | docker build --build-arg APP_UID=$(id -u) -t ros_gaz_env --no-cache -f - .
+ 1282  cd EuroBot2020/inno20_repository/
+ 1283  sh ./docker_configs/dockerfile.sh | docker build --build-arg APP_UID=$(id -u) -t ros_gaz_env --no-cache -f - .
+ 1284  docker-compose  -f docker-compose_nvidia.yml up -d
+ 1285  docker container exec -it inno20_repository_ros-master_1 bash
+ 1286  rsotopic ls
+ 1287  rsotopic list
+ 1288  rostopic list
+ 1289  docker exec -it inno20_repository_ros-master_1 bash
+ 1290  systemctl restart gdm
+ 1291  docker exec -it inno20_repository_ros-master_1 bash
+ 1292  docker exec -it inno20_repository_ros-master_1 bash
+ 1293  docker exec -it inno20_repository_ros-master_1 bash
+ 1294  docker exec -it inno20_repository_ros-master_1 bash
+ 1295  docker exec -it inno20_repository_ros-master_1 bash
+ 1296  docker exec -it ros_gaz_env_mv bash
+ 1297  xhost +local:
+ 1298  docker exec -it ros_gaz_env_mv bash
+ 1299  docker exec -it ros_gaz_env_mv bash
+ 1300  cd EuroBot2020/inno20_repository/
+ 1301  ./markov_workspace.sh
+ 1302  ./markov_workspace.sh nvidia
+ 1303  ls
+ 1304  catkin build
+ 1305  docker exec -it ros_gaz_env_mv bash
+ 1306  ./markov_pipeline.sh 
+ 1307  docker ps
+ 1308  docker ps -a
+ 1309  docker stop inno20_repository_ros-master_1 
+ 1310  docker stop ros_gaz_env_mv
+ 1311  docker ps -a
+ 1312  docker kill d275ae9d0632
+ 1313  docker ps -a
+ 1314  cd EuroBot2020/inno20_repository/
+ 1315  ./markov_workspace.sh 
+ 1316  ./markov_workspace.sh nvidia
+ 1317  docker exec -it ros_gaz_env_mv bash
+ 1318  roslaunch rviz
+ 1319  rosrun rviz rviz 
+ 1320  roslaunch rviz rviz
+ 1321  systemctl restart gdm
+ 1322  rviz
+ 1323  roscore
+ 1324  cd EuroBot2020/inno20_repository/
+ 1325  ./markov_workspace.sh 
+ 1326  ./markov_workspace.sh nvidia
+ 1327  docker exec -it ros_gaz_env_mv bash
+ 1328  cd EuroBot2020/inno20_repository/
+ 1329  ./markov_workspace.sh 
+ 1330  ./markov_workspace.sh  nvidia
+ 1331  docker exec -it ros_gaz_env_mv bash
+ 1332  ls
+ 1333  ./workspace.sh 
+ 1334  ./workspace.sh nvidia
+ 1335  docker stop ros_gaz_env_mv
+ 1336  docker ps -a
+ 1337  docker stop inno20_repository_ros-master_1 
+ 1338  docker ps -a
+ 1339  docker ps -a 
+ 1340  ./workspace.sh nvidia
+ 1341  docker exec -it ros_gaz_env_mv bash
+ 1342  ./pipeline.sh 
+ 1343  cd EuroBot2020/inno20_repository/
+ 1344  docker ps -a
+ 1345  docker im -a
+ 1346  docker image
+ 1347  docker image ls -a
+ 1348  ./workspace.sh 
+ 1349  ./workspace.sh nvidia
+ 1350  docker exec -it ros_gaz_env_mv bash
+ 1351  ./workspace.sh nvidia
+ 1352  docker exec -it ros_gaz_env_mv bash
+ 1353  ./workspace.sh 
+ 1354  ./workspace.sh  nvidia
+ 1355  docker exec -it ros_gaz_env_mv bash
+ 1356  cd src/_dev/dev_014_points2buoy_algorithm/launch/
+ 1357  ls
+ 1358  roslaunch start.launch
+ 1359  catkin build
+ 1360  cd ..
+ 1361  catkin build
+ 1362  ls
+ 1363  ./workspace.sh nvidia
+ 1364  docker exec -it ros_gaz_env_mv bash
+ 1365  realsense-viewer 
+ 1366  roscore
+ 1367  rviz
+ 1368  roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
+ 1369  realsense-viewer 
+ 1370  roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
+ 1371  realsense-viewer 
+ 1372  docker exec -it ros_gaz_env_mv bash
+ 1373  cd ..
+ 1374  cd..
+ 1375  cd ..
+ 1376  roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
+ 1377  lsb_release -a
+ 1378  sudo apt-get install ros-noetic-realsense2-camera
+ 1379  sudo apt-get install ros-noetic-realsense2-description
+ 1380  sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
+ 1381  sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo focal main" -u
+ 1382  sudo apt-get install librealsense2-dkms
+ 1383  sudo apt-get install librealsense2-utils
+ 1384  sudo apt-get install librealsense2-dev
+ 1385  sudo apt-get install librealsense2-dbg
+ 1386  realsense-viewer
+ 1387  modinfo uvcvideo | grep "version:"
+ 1388  modinfo uvcvideo | grep "version:
+ 1389  "
+ 1390  sudo apt-get update
+ 1391  sudo apt-get upgrade
+ 1392  source catkin_ws/devel/setup.bash 
+ 1393  roslaunch realsense2_camera rs_camera.launch
+ 1394  sudo apt-get install ros-noetic-realsense2-camera
+ 1395  cd catkin_ws/
+ 1396  catkin_clean
+ 1397  catkin_make
+ 1398  roslaunch realsense2_camera rs_camera.launch
+ 1399  rviz
+ 1400  roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
+ 1401  rostopic 
+ 1402  rostopic list 
+ 1403  rostopic echo /camera/depth/color/points 
+ 1404  rostopic list 
+ 1405  catkin_make
+ 1406  cd catkin_ws/
+ 1407  catkin_make
+ 1408  rosrun joy_gazebo_control gazebo_teleop_joy 
+ 1409  rosrun learning_joy turtle_teleop_joy 
+ 1410  roscore
+ 1411  cd catkin_ws/
+ 1412  catkin_make
+ 1413  sudo apt-get pcl
+ 1414  sudo apt install libpcl-dev
+ 1415  catkin_make
+ 1416  dep_update
+ 1417  sudo apt-get update
+ 1418  sudo apt-get upgrade
+ 1419  catkin_make
+ 1420  rosrun learning_joy turtle_teleop_joy 
+ 1421  roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
+ 1422  cd EuroBot2020/inno20_repository/
+ 1423  ./workspace.sh 
+ 1424  ./workspace.sh nvidia
+ 1425  docker exec -it ros_gaz_env_mv bash
+ 1426  docker exec -it ros_gaz_env_mv bash
+ 1427  ./workspace.sh 
+ 1428  ./workspace.sh nvidia
+ 1429  docker exec -it ros_gaz_env_mv bash
+ 1430  ./workspace.sh nvidia
+ 1431  docker exec -it ros_gaz_env_mv bash
+ 1432  sudo apt-get install chromium-codecs-ffmpeg-extra
+ 1433  systemctl restart gdm
+ 1434  ./pipeline.sh 
+ 1435  docker exec -it ros_gaz_env_mv bash
+ 1436  ./pipeline.sh 
+ 1437  docker exec -it ros_gaz_env_mv bash
+ 1438  docker exec -it ros_gaz_env_mv bash
+ 1439  cd EuroBot2020/inno20_repository/
+ 1440  ./workspace.sh nvidia
+ 1441  docker exec -it ros_gaz_env_mv bash
+ 1442  cd EuroBot2020/inno20_repository/
+ 1443  ./workspace.sh nvidia
+ 1444  docker exec -it ros_gaz_env_mv bash
+ 1445  systemctl restart gdm
+ 1446  docker exec -it ros_gaz_env_mv bash
+ 1447  docker exec -it ros_gaz_env_mv bash
+ 1448  cd EuroBot2020/inno20_repository/
+ 1449  ./workspace.sh 
+ 1450  ./workspace.sh nvidia
+ 1451  docker exec -it ros_gaz_env_mv bash
+ 1452  cd EuroBot2020/inno20_repository/
+ 1453  ./pipeline.sh 
+ 1454  systemctl restart gdm
+ 1455  ./setup.sh 
+ 1456  cd EuroBot2020/inno20_repository/
+ 1457  ./pipeline.sh -j 4
+ 1458  cd EuroBot2020/inno20_repository/
+ 1459  ./workspace.sh 
+ 1460  ./workspace.sh nvidia
+ 1461  docker exec -it ros_gaz_env_mv bash
+ 1462  ./workspace.sh nvidia
+ 1463  docker stop ros_gaz_env_mv
+ 1464  ./workspace.sh nvidia
+ 1465  docker exec -it ros_gaz_env_mv bash
+ 1466  cd EuroBot2020/inno20_repository/
+ 1467  ./workspace.sh nvidia
+ 1468  docker stop ros_gaz_env_mv
+ 1469  ./workspace.sh nvidia
+ 1470  docker exec -it ros_gaz_env_mv bash
+ 1471  ./workspace.sh nvidia
+ 1472  docker stop ros_gaz_env_mv
+ 1473  ./workspace.sh nvidia
+ 1474  docker exec -it ros_gaz_env_mv bash
+ 1475  cd EuroBot2020/inno20_repository/
+ 1476  ./workspace.sh nvidia
+ 1477  docker exec -it ros_gaz_env_mv bash
+ 1478  ./workspace.sh nvidia
+ 1479  docker stop ros_gaz_env_mv
+ 1480  ./workspace.sh nvidia
+ 1481  docker exec -it ros_gaz_env_mv bash
+ 1482  ./pipeline.sh -j 2
+ 1483  docker exec -it ros_gaz_env_mv bash
+ 1484  cd EuroBot2020/inno20_repository/
+ 1485  ./workspace.sh nvidia
+ 1486  docker exec -it ros_gaz_env_mv bash
+ 1487  systemctl restart gdm
+ 1488  roman060902
+ 1489  systemctl restart gdm
+ 1490  systemctl restart gdm
+ 1491  alsamixer 
+ 1492  sudo add-apt-repository ppa:mikhailnov/pulseeffects
+ 1493  sudo apt update
+ 1494  sudo apt install pulseaudio pulseeffects -
+ 1495  sudo apt install pulseaudio pulseeffects --install-recommends
+ 1496  sudo apt autoremove
+ 1497  sudo apt install pulseaudio pulseeffects --install-recommends
+ 1498  sudo apt remove pulseeffects
+ 1499  sudo apt install pulseaudio pulseeffects --install-recommends
+ 1500  sudo apt-get purge pulseaudio
+ 1501  sudo apt-get clean && sudo apt-get autoremove
+ 1502  rm -r ~/.pulse ~/.asound* ~/.pulse-cookie ~/.config/pulse
+ 1503  sudo apt-get install pulseaudio
+ 1504  sudo alsa force-reload
+ 1505  pavucontrol
+ 1506  sudo apt install pavucontrol
+ 1507  pavucontrol
+ 1508  fg
+ 1509  pulseaudio --check\\
+ 1510  pulseaudio -D
+ 1511  pavucontrol
+ 1512  sudo apt-get install "pulseaudio-*"
+ 1513  echo "deb http://ppa.launchpad.net/blueman/ubuntu `lsb_release -cs` main" | sudo tee /etc/apt/sources.list.d/blueman.list
+ 1514  sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 6B15AB91951DC1E2 && sudo apt-get update
+ 1515  sudo apt-get install blueman
+ 1516  cd EuroBot2020/inno20_repository/
+ 1517  ./workspace.sh 
+ 1518  ./workspace.sh nvidia
+ 1519  swapon --show
+ 1520  sudo swapoff /swapfile
+ 1521  sudo fallocate -l 8G /swapfile
+ 1522  sudo mkswap /swapfile
+ 1523  sudo swapon /swapfile
+ 1524  swapon --show
+ 1525  cd EuroBot2020/inno20_repository/
+ 1526  ./workspace.sh nvidia
+ 1527  docker exec -it ros_gaz_env_mv bash
+ 1528  ./pipeline.sh 
+ 1529  docker exec -it ros_gaz_env_mv bash
+ 1530  // #include <pcl/ModelCoefficients.h>
+ 1531  ./workspace.sh nvidia
+ 1532  docker exec -it ros_gaz_env_mv bash
+ 1533  cd EuroBot2020/inno20_repository/
+ 1534  ./workspace.sh nvidia
+ 1535  docker exec -it ros_gaz_env_mv bash
+ 1536  sudo add-apt-repository ppa:mikhailnov/pulseeffects
+ 1537  sudo apt update
+ 1538  sudo apt install pulseaudio pulseeffects --install-recommends
+ 1539  docker exec -it ros_gaz_env_mv bash
+ 1540  ./workspace.sh nvidia
+ 1541  docker exec -it ros_gaz_env_mv bash
+ 1542  cd EuroBot2020/inno20_repository/
+ 1543  ./workspace.sh 
+ 1544  ./workspace.sh nvidia
+ 1545  docker exec -it ros_gaz_env_mv bash
+ 1546  pavucontrol
+ 1547  docker exec -it ros_gaz_env_mv bash
+ 1548  realsense-viewer 
+ 1549  roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
+ 1550  rviz
+ 1551  ./pipeline.sh -j 4
+ 1552  docker exec -it ros_gaz_env_mv bash
+ 1553  docker exec -it ros_gaz_env_mv bash
+ 1554  cd EuroBot2020/inno20_
+ 1555  cd EuroBot2020/inno20_repository/
+ 1556  ./workspace.sh nvidia
+ 1557  docker exec -it ros_gaz_env_mv bash
+ 1558  blueman-assistant 
+ 1559  blueman-manager 
+ 1560  blueman-assistant 
+ 1561  dpkg --status bluez | grep '^ Версия:'
+ 1562  sudo add-apt-repository ppa: bluetooth / bluez 
+ 1563  dpkg --status bluez | grep '^Version:'
+ 1564  sudo add-apt-repository ppa:bluetooth/bluez
+ 1565  sudo apt-get update
+ 1566  dpkg --status bluez | grep '^Version:'
+ 1567  sudo apt upgrade
+ 1568  dpkg --status bluez | grep '^Version:'
+ 1569  sudo apt install pulseaudio pulseaudio-utils pavucontrol pulseaudio-module-bluetooth
+ 1570  sudo gedit /etc/bluetooth/audio.conf
+ 1571  sudo service bluetooth restart
+ 1572  journalctl -f
+ 1573  1
+ 1574  journalctl -f
+ 1575  sudo bluetoothctl -a
+ 1576  sudo apt install pulseaudio-module-bluetooth 
+ 1577  pulseaudio -k
+ 1578  pulseaudio --start
+ 1579  sudo pactl load-module module-bluetooth-discover
+ 1580  journalctl -f
+ 1581  restart
+ 1582  rstart
+ 1583  restartd
+ 1584  poweroff
+ 1585  gedit
+ 1586  ls
+ 1587  ls -a
+ 1588  gedit .bashrc 
+ 1589  EuroBot2020
+ 1590  EuroBot
+ 1591  gedit .bashrc 
+ 1592  workspaceEurobot
+ 1593  gedit .bashrc 
+ 1594  l
+ 1595  ls
+ 1596  la
+ 1597  l
+ 1598  ls
+ 1599  la
+ 1600  ll
+ 1601  workspaceEurobot
+ 1602  workspaceEurobot 
+ 1603  gedit .bashrc 
+ 1604  workspaceEurobot 
+ 1605  gedit .bashrc 
+ 1606  cd
+ 1607  gedit .bashrc 
+ 1608  cd
+ 1609  gedit .bashrc 
+ 1610  gedit
+ 1611  workspaceEurobot 
+ 1612  workspaceEurobot 
+ 1613  workspaceEurobot 
+ 1614  ./workspace.sh nvidia usb
+ 1615  docker stop ros_gaz_env_mv
+ 1616  ./workspace.sh nvidia usb
+ 1617  docker exec -it ros_gaz_env_mv bash
+ 1618  docker exec -it ros_gaz_env_mv 
+ 1619  docker exec -it ros_gaz_env_mv bash
+ 1620  reboot
+ 1621  rviz
+ 1622  rosocore
+ 1623  roscore
+ 1624  workspaceEurobot 
+ 1625  docker exec -it ros_gaz_env_mv bash
+ 1626  ./pipeline.sh -j 2
+ 1627  workspaceEurobot 
+ 1628  docker exec -it ros_gaz_env_mv bash
+ 1629  docker exec -it ros_gaz_env_mv bash
+ 1630  workspaceEurobot 
+ 1631  workspaceEurobot 
+ 1632  workspaceEurobot 
+ 1633  docker stop ros_gaz_env_mv 
+ 1634  docker stop inno20_repository_ros-master_1 
+ 1635  workspaceEurobot 
+ 1636  cd EuroBot2020/inno20_repository/
+ 1637  ./pipeline.sh -j 4
+ 1638  workspaceEurobot 
+ 1639  docker exec -it ros_gaz_env_mv bash
+ 1640  docker exec -it ros_gaz_env_mv bash
+ 1641  docker exec -it ros_gaz_env_mv bash
+ 1642  ./pipeline.sh -j 4
+ 1643  ls -a
+ 1644  ps -a
+ 1645  cd drivers/
+ 1646  ls
+ 1647  ./install_realsense.sh 
+ 1648  cd -
+ 1649  workspaceEurobot 
+ 1650  ./workspace.sh nvidia
+ 1651  docker exec -it ros_gaz_env_mv bash
+ 1652  realsense-viewer 
+ 1653  which realsense-viewer 
+ 1654  cd /usr/bin/
+ 1655  ls
+ 1656  ls -la | grep real
+ 1657  ls -lan | grep real
+ 1658  calibrate_ppa 
+ 1659  cd 
+ 1660  cd ~
+ 1661  sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+ 1662  dynamic
+ 1663  dynamic-configuration
+ 1664  docker exec -it ros_gaz_env_mv bash
+ 1665  ./workspace.sh nvidia
+ 1666  docker stop ros_gaz_env_mv
+ 1667  vscode
+ 1668  ./workspace.sh nvidia usb
+ 1669  docker exec -it ros_gaz_env_mv bash
+ 1670  ./pipeline.sh 
+ 1671  gedit input.txt
+ 1672  cd EuroBot2020/inno20_repository/
+ 1673  ./workspace.sh  nvidia
+ 1674  docker exec -it ros_gaz_env_mv bash
+ 1675  rostopic list
+ 1676  ./workspace.sh nvidia
+ 1677  docker exec -it ros_gaz_env_mv bash
+ 1678  pip install git+git://github.com/psf/black
+ 1679  ./pipeline.sh 
+ 1680  pip install git+git://github.com/psf/black
+ 1681  pip install black
+ 1682  sudo apt install python3
+ 1683  sudo apt install pip
+ 1684  sudo apt installA
+ 1685  sudo apt install python3
+ 1686  pip install black
+ 1687  sudo apt install python3-pip
+ 1688  pip install black
+ 1689  pip3 install black
+ 1690  black
+ 1691  /home/vromanv/.local/bin/black
+ 1692  /home/vromanv/.local/bin/black src/_dev/dev_012_test_dynamixel/src/rqt_test.py 
+ 1693  ./pipeline.sh 
+ 1694  /home/vromanv/.local/bin/black src/robot1/robot1_actions/src/take_buoy.py 
+ 1695  ./pipeline.sh 
+ 1696  /home/vromanv/.local/bin/black src/robot1/robot1_actions/src/take_buoy.py 
+ 1697  ./pipeline.sh 
+ 1698  /home/vromanv/.local/bin/black src/_dev/dev_020_manipulator_control/src/take_buoy_test.py 
+ 1699  /home/vromanv/.local/bin/black src/_dev/dev_012_test_dynamixel/src/rqt_test.py 
+ 1700  ./pipeline.sh 
+ 1701  /home/vromanv/.local/bin/black src/_dev/dev_015_test_manipulator/src/test_H_in_ik.py 
+ 1702  ./pipeline.sh 
+ 1703  cd EuroBot2020/inno20_repository/
+ 1704  ./workspace.sh nvidia usb
+ 1705  docker exec -it ros_gaz_env_mv bash
+ 1706  workspaceEurobot 
+ 1707  ./pipeline.sh 
+ 1708  work
+ 1709  workspaceEurobot 
+ 1710  ./pipeline.sh 
+ 1711  docker exec -it ros_gaz_env_mv bash
+ 1712  docker exec -it ros_gaz_env_mv  bash
+ 1713  cd EuroBot2020/inno20_repository/
+ 1714  git status
+ 1715  git add src/common/drivers/
+ 1716  git info
+ 1717  git set
+ 1718  git help
+ 1719  git config user.name 
+ 1720  git config user.email
+ 1721  git config user.name="Aleksandr Krotov"
+ 1722  git config user.name "Aleksandr Krotov"
+ 1723  git config user.email "san.crot@yandex.ru"
+ 1724  git status
+ 1725  git olg
+ 1726  git log
+ 1727  git olg
+ 1728  git status
+ 1729  git reset
+ 1730  git checkout fix_dmx
+ 1731  git status
+ 1732  git add src/common/drivers/
+ 1733  git commit -m "Fix govna"
+ 1734  git push
+ 1735  git config user.name ""V_Roman_V
+ 1736  git config user.name V_Roman_V
+ 1737  git config user.email "vor.roman.v@gmail.com"
+ 1738  docker exec -it ros_gaz_env_mv  bash
+ 1739  sudo usermod -aG dialout vromanv
+ 1740  reboot
+ 1741  docker exec -it ros_gaz_env_mv bash
+ 1742  workspaceEurobot 
+ 1743  docker stop inno20_repository_ros-master_1 docke
+ 1744  docker stop ros_gaz_env_mv
+ 1745  ./workspace.sh nvidia --device /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0 --device /dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT1YEX0I-if00-port0
+ 1746  docker exec -it ros_gaz_env_mv bash
+ 1747  ./pipeline.sh 
+ 1748  vscode
+ 1749  docker exec -it  bash
+ 1750  docker exec -it ros_gaz_env_mv bash
+ 1751  ./workspace.sh nvidia --device /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0 --device /dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT1YEX0I-if00-port0
+ 1752  docker exec -it ros_gaz_env_mv bash
+ 1753  dep_update; catkin build; source devel/setup.bash
+ 1754  .
+ 1755  cd EuroBot2020/inno20_repository/
+ 1756  ./workspace.sh nvidia --device /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0 --device /dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT1YEX0I-if00-port0
+ 1757  docker exec -it ros_gaz_env_mv bash
+ 1758  systemctl restart gdm
+ 1759  ./workspace.sh nvidia --device /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0 --device /dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT1YEX0I-if00-port0
+ 1760  docker exec -it ros_gaz_env_mv bash
+ 1761  dep_update; catkin build; source devel/setup.bash
+ 1762  .
+ 1763  cd EuroBot2020/inno20_repository/
+ 1764  ./workspace.sh nvidia --device /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0 --device /dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT1YEX0I-if00-port0
+ 1765  docker exec -it ros_gaz_env_mv bash
+ 1766  poweroff
+ 1767  docker stop ros_gaz_env_mv inno20_repository_ros-master_1 
+ 1768  restart
+ 1769  poweroff
+ 1770  sudo init 0
+ 1771  docker exec -it ros_gaz_env_mv bash
+ 1772  ./pipeline.sh 
+ 1773  docker exec -it ros_gaz_env_mv  bash
+ 1774  docker exec -it ros_gaz_env_mv bash
+ 1775  docker exec -it ros_gaz_env_mv  bash
+ 1776  rviz
+ 1777  docker exec -it ros_gaz_env_mv bash
+ 1778  docker exec -it ros_gaz_env_mv bash
+ 1779  docker stop inno20_repository_ros-master_1 inno20_repository_ros-master_1 
+ 1780  cd EuroBot2020/inno20_repository/
+ 1781  ./workspace.sh nvidia --device /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0 --device /dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT1YEX0I-if00-port0
+ 1782  docker exec -it ros_gaz_env_mv bash
+ 1783  dep_update; catkin build; source devel/setup.bash
+ 1784  ./workspace.sh nvidia
+ 1785  docker exec -it ros_gaz_env_mv bash
+ 1786  docker stop ros_gaz_env_mv 
+ 1787  ./workspace.sh nvidia -usb
+ 1788  ./workspace.sh nvidia usb
+ 1789  docker help
+ 1790  docker exec -it ros_gaz_env_mv bash
+ 1791  workspaceEurobot 
+ 1792  docker exec -it ros_gaz_env_mv bash
+ 1793  ./pipeline.sh 
+ 1794  ./pi
+ 1795  ./pipeline.sh 
+ 1796  cd EuroBot2020/inno20_repository/
+ 1797  ./workspace.sh nvidia usb
+ 1798  docker exec -it ros_gaz_env_mv  bash
+ 1799  docker exec -it ros_gaz_env_mv bash\
+ 1800  docker exec -it ros_gaz_env_mv bash
+ 1801  docker exec -it ros_gaz_env_mv bash
+ 1802  ./pip
+ 1803  ./pipeline.sh 
+ 1804  docker exec -it ros_gaz_env_mv  bash
+ 1805  ssh-keygen
+ 1806  mc
+ 1807  docker exec -it ros_gaz_env_mv bash
+ 1808  ./pipeline.sh 
+ 1809  docker exec -it ros_deploy ssh TARGET
+ 1810  ./deploy.sh 
+ 1811  docker exec -it ros_deploy bash
+ 1812  docker stop ros_deploy 
+ 1813  ./deploy.sh 
+ 1814  black src/common/actions/ac_activate_windsock/src/activate_windsock.py 
+ 1815  black src/common/actions/ac_prepare_manipulator_for_drive/src/prepare_manipulator_for_drive.py 
+ 1816  docker exec -it ros_gaz_env_mv bash
+ 1817  docker exec -it ros_gaz_env_mv
+ 1818  docker exec -it ros_gaz_env_mv bash
+ 1819  docker exec -it ros_deploy ssh bash
+ 1820  docker exec -it ros_deploy ssh_bash
+ 1821  ./deploy.sh 
+ 1822  docker exec -it ros_deploy ssh robot1
+ 1823  ./deploy.sh 
+ 1824  docker exec -it ros_deploy ssh robot1
+ 1825  docker exec -it ros_deploy bash
+ 1826  du -sm
+ 1827  subl start.launch 
+ 1828  docker exec -it ros_deploy ssh robot1
+ 1829  docker exec -it ros_gaz_env_mv bash
+ 1830  cd EuroBot2020/inno20_repository/
+ 1831  ./workspace.sh nvidia
+ 1832  docker exec -it ros_gaz_env_mv bash
+ 1833  docker exec -it ros_gaz_env_mv bash
+ 1834  pip install guppy3
+ 1835  cd EuroBot2020/inno20_repository
+ 1836  cd EuroBot2020/inno20_repository
+ 1837  ./deploy.sh 
+ 1838  docker exec -it ros_deploy bash
+ 1839  docker exec -it ros_deploy ssh robot1
+ 1840  docker exec -it ros_deploy ssh robot1
+ 1841  docker exec -it ros_deploy ssh robotq
+ 1842  docker exec -it ros_deploy ssh robot1
+ 1843  docker exec -it ros_deploy ssh robotq
+ 1844  docker exec -it ros_deploy ssh robot1
+ 1845  ./workspace.sh 
+ 1846  ./workspace.sh nvidia
+ 1847  docker exec -it ros_gaz_env_mv bash
+ 1848  ./pipeline.sh 
+ 1849  docker exec -it ros_deploy ssh robot1
+ 1850  docker exec -it ros_deploy ssh robot1
+ 1851  docker exec -it ros_deploy ssh robot1
+ 1852  ./deploy.sh 
+ 1853  docker exec -it ros_deploy bash
+ 1854  cd EuroBot2020/inno20_repository
+ 1855  ./workspace.sh nvidia
+ 1856  docker exec -it ros_gaz_env_mv bash
+ 1857  ./pipeline.sh 
+ 1858  vscode
+ 1859  ./pipeline.sh 
+ 1860  vscode
+ 1861  ./pipeline.sh 
+ 1862  cd EuroBot2020/inno20_repository
+ 1863  ./workspace.sh 
+ 1864  ./workspace.sh nvidia
+ 1865  docker exec -it ros_gaz_env_mv bash
+ 1866  docker stop ros_gaz_env_mv ros_gaz_env_mv 
+ 1867  cd EuroBot2020/inno20_repository
+ 1868  ./workspace.sh nidia
+ 1869  ./workspace.sh nvidia
+ 1870  docker exec -it ros_gaz_env_mv bash
+ 1871  ./pipeline.sh 
+ 1872  docker stop ros_gaz_env_mv 
+ 1873  ./workspace.sh nvidia
+ 1874  docker exec -it ros_gaz_env_mv bash
+ 1875  ./pipeline.sh 
+ 1876  docker exec -it ros_deploy ssh robot1
+ 1877  docker exec -it ros_deploy ssh robot1
+ 1878  ./deploy.sh 
+ 1879  docker exec -it ros_deploy bash
+ 1880  ./pipeline.sh 
+ 1881  git log --author="V_Roman_V" --pretty=tformat: --numstat
+ 1882  cd EuroBot2020/inno20_repository
+ 1883  ./workspace.sh nvidia
+ 1884  docker exec -it ros_gaz_env_mv bash
+ 1885  docker stop ros_deploy 
+ 1886  ./deploy.sh 
+ 1887  docker exec -it ros_deploy bash
+ 1888  docker exec -it ros_deploy ssh TARGET
+ 1889  ./pi
+ 1890  ./pipeline.sh 
+ 1891  vscode
+ 1892  ./pipeline.sh 
+ 1893  docker exec -it ros_deploy ssh robot1
+ 1894  ws switch dev/test/flag
+ 1895  docker exec -it ros_deploy ssh robot1
+ 1896  docker exec -it ros_deploy ssh robot1
+ 1897  OC
+ 1898  tar -xf
+ 1899  tar -xf Lighthouse
+ 1900  tar -xf Lighthouse.tar 
+ 1901  git log --author="_Your_Name_Here_" --pretty=tformat: --numstat \
+ 1902  git log --author="V_Roman_V" --pretty=tformat: --numstat | gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+ 1903  sudo apt install gawk
+ 1904  git log --author="V_Roman_V" --pretty=tformat: --numstat | gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+ 1905  git log --author="vova@vova.tom.ru" --pretty=tformat: --numstat | gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+ 1906  git log --author="voronov_artem_lit@mail.ru" --pretty=tformat: --numstat | gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+ 1907  git log --author="san.crot@yandex.ru" --pretty=tformat: --numstat | gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+ 1908  git log --author="markovvn1@gmail.com" --pretty=tformat: --numstat | gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+ 1909  git log --author="Markovvn1@gmail.com" --pretty=tformat: --numstat | gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+ 1910  git log --author="RuLed13MO" --pretty=tformat: --numstat | gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+ 1911  git log --author="ura2178@gmail.com" --pretty=tformat: --numstat | gawk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s removed lines: %s total lines: %s\n", add, subs, loc }' -
+ 1912  ./pipeline.sh 
+ 1913  docker exec -it ros_gaz_env_mv bash
+ 1914  ls
+ 1915  cd ..
+ 1916  l
+ 1917  ls
+ 1918  l
+ 1919  al
+ 1920  la
+ 1921  cd Lighthouse/
+ 1922  ls
+ 1923  make up
+ 1924  make 
+ 1925  make venv 
+ 1926  make up
+ 1927  ls
+ 1928  mc
+ 1929  make up
+ 1930  cd ..
+ 1931  l
+ 1932  cd Lighthouse/
+ 1933  make up
+ 1934  docker exec -it ros_gaz_env_mv 
+ 1935  docker exec -it ros_gaz_env_mv bash
+ 1936  cd EuroBot2020/inno20_repository
+ 1937  ./workspace.sh nvidia
+ 1938  docker exec -it ros_gaz_env_mv bash
+ 1939  ./pipeline.sh 
+ 1940  cd EuroBot2020/inno20_repository
+ 1941  ./pipeline.sh 
+ 1942  docker exec -it ros_gaz_env_mv bash
+ 1943  docker exec -it ros_gaz_env_mv  bash
+ 1944  ./p
+ 1945  cd EuroBot2020/inno20_repository
+ 1946  ./pipeline.sh 
+ 1947  docker exec -it ros_deploy ssh robot1
+ 1948  docker exec -it ros_deploy ssh robot1
+ 1949  ./deploy.sh 
+ 1950  docker exec -it ros_deploy bash
+ 1951  docker exec -it ros_gaz_env_mv bash
+ 1952  docker exec -it ros_gaz_env_mv bash
+ 1953  docker exec -it ros_gaz_env_mv bash
+ 1954  docker stop ros_gaz_env_mv 
+ 1955  cd EuroBot2020/inno20_repository
+ 1956  ./workspace.sh nvidia usb
+ 1957  docker exec -it ros_gaz_env_mv  bash
+ 1958  docker stop ros_gaz_env_mv ros_deploy 
+ 1959  ./pipeline.sh 
+ 1960  ./deploy.sh 
+ 1961  ./pipeline.sh 
+ 1962  docker exec -it ros_gaz_env_mv  bash
+ 1963  docker exec -it ros_gaz_env_mv  bash
+ 1964  cd EuroBot2020/inno20_repository
+ 1965  catkin build -j4
+ 1966  ./workspace.sh nvidia
+ 1967  docker exec -it ros_gaz_env_mv bash
+ 1968  docker exec -it ros_gaz_env_mv  bash
+ 1969  echo '\nrobot1-eurobot 192.168.16.12' >> /etc/hosts
+ 1970  sudo echo '\nrobot1-eurobot 192.168.16.12' >> /etc/hosts
+ 1971  ./deploy.sh 
+ 1972  docker exec -it ros_deploy bash
+ 1973  docker exec -it ros_deploy ssh robot1
+ 1974  ws switch dev/test_move_to
+ 1975  docker exec -it ros_deploy ssh robot1
+ 1976  docker exec -it ros_deploy ssh robot1
+ 1977  ./pipeline.sh 
+ 1978  docker stop ros_gaz_env_mv ros_deploy 
+ 1979  cd EuroBot2020/inno20_repository
+ 1980  ./workspace.sh nvidia
+ 1981  docker exec -it ros_gaz_env_mv bash
+ 1982  docker exec -it ros_deploy ssh robot1
+ 1983  ./pipeline.sh 
+ 1984  black 
+ 1985  black src/_final/final_real/src/complex_test.py 
+ 1986  lack src/_final/final_real/src/complex_test.py 
+ 1987  ./pipeline.sh 
+ 1988  A
+ 1989  ./pipeline.sh 
+ 1990  cd EuroBot2020/inno20_repository
+ 1991  ./pipeline.sh 
+ 1992  docker exec -it ros_deploy ba
+ 1993  docker stop ros_deploy 
+ 1994  ./deploy.sh 
+ 1995  docker exec -it ros_deploy bash
+ 1996  docker exec -it ros_deploy ssh robotq
+ 1997  docker exec -it ros_deploy ssh robot1
+ 1998  docker exec -it ros_deploy ssh robot1
+ 1999  docker exec -it ros_deploy ssh robot1
+ 2000  mc
+ 2001  whoami
+ 2002  hostname
+ 2003  head
+ 2004  tail
+ 2005  cd .
+ 2006  cd ..
+ 2007  cd .
+ 2008  cd ~
+ 2009  ls
+ 2010  cd ROBOTICS/
+ 2011  touch test
+ 2012  ls
+ 2013  cat > test
+ 2014  cat test
+ 2015  echo > test
+ 2016  gedit test
+ 2017  echo test
+ 2018  echo > test
+ 2019  clear
+ 2020  cd ..
+ 2021  mkdir Operations_System
+ 2022  ls
+ 2023  cd Operations_System/
+ 2024  mkdir week1
+ 2025  cd week1/
+ 2026  ls ~/../../usr/bin | grep gcc
+ 2027  ls ~/../../usr/bin | grep gcc | sort -r
+ 2028  ls ~/../../usr/bin | grep gcc | sort -r > ~/Operations_System/week1/ex1.txt
+ 2029  ls
+ 2030  cat ex1.txt 
+ 2031  ls /usr/bin | grep gcc | sort -r > ~/Operations_System/week1/ex1.txt
+ 2032  cat ex1.txt 
+ 2033  ls /usr/bin | grep gcc | sort > ~/Operations_System/week1/ex1.txt
+ 2034  cat ex1.txt 
+ 2035  ls /usr/bin | grep gcc | sort -r > ~/Operations_System/week1/ex1.txt
+ 2036  echo history
+ 2037  history
+ 2038  history > ex2.txt
