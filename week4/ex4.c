@@ -14,6 +14,7 @@ int main(){
 		fgets(str, 256, stdin);
 		char* args[16];
 		args[0] = strtok(str," \n");
+		if(args[0] == NULL)continue; 
 		int cnt = 1;
 		for(;cnt < 15; cnt++)
 			if( (args[cnt] = strtok(NULL," \n")) == NULL)
