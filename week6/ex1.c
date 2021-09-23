@@ -64,13 +64,13 @@ void sortingByNum(){
 void culculateData(){
 	sortingByAT();
 
-	int cur_ct = 0;
+	int cur_t = 0;
 	for (int i = 0; i< job_count; i++){
-		int start = max(cur_ct, jobs[i].at);
+		int start = max(cur_t, jobs[i].at);
 		jobs[i].wt = start - jobs[i].at;
 		jobs[i].ct = start + jobs[i].bt;
 		jobs[i].tat = jobs[i].bt + jobs[i].wt;
-		cur_ct = jobs[i].ct;
+		cur_t = jobs[i].ct;
 	}
 
 	sortingByNum();
