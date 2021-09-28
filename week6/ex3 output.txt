@@ -1,0 +1,18 @@
+(0)Time:4 - 5   i:1 wt:0 ct:5 tat:1 wdt:1 done:1
+(5)Time:6 - 8   i:0 wt:0 ct:8 tat:4 wdt:2 done:0
+(8)Time:8 - 10   i:0 wt:0 ct:10 tat:4 wdt:4 done:1
+(10)Time:10 - 12   i:3 wt:0 ct:12 tat:2 wdt:2 done:1
+(12)Time:12 - 14   i:4 wt:2 ct:14 tat:5 wdt:2 done:0
+(14)Time:14 - 16   i:2 wt:1 ct:16 tat:5 wdt:2 done:0
+(16)Time:16 - 17   i:4 wt:4 ct:17 tat:7 wdt:3 done:1
+(17)Time:17 - 19   i:2 wt:2 ct:19 tat:6 wdt:4 done:1
+
+P#  AT  BT  CT  TAT WT
+
+P0  6   4   10  4   0
+P1  4   1   5   1   0
+P2  13  4   19  6   2
+P3  10  2   12  2   0
+P4  10  3   17  7   4
+Average Turnaround Time = 4.000000
+Average WT = 1.200000

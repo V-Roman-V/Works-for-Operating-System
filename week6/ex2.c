@@ -152,7 +152,7 @@ void printData(){
 int main(void) {
 	FILE *file = fopen("input.csv", "r");
 	parsefile(file);
-	culculateData(FIFO); // FIFO, SHORTEST, ROUND_ROBIN
+	culculateData(SHORTEST); // FIFO, SHORTEST, ROUND_ROBIN
 	printData();
 	
 	fclose(file);
