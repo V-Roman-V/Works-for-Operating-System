@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  0x941	  0x280	    0x8	   3017	    bc9	ex2
