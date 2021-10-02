@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+# Игнорирование файлов специфичных для IDE 
+.idea/ 
+.vscode/ 
+
 # Compiled Object files
 *.slo
 *.lo
