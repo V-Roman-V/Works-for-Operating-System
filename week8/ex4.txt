@@ -1,0 +1,182 @@
+ru_utime: 0 4078
+ru_stime: 0 12236
+ru_stime: 0 
+ru_maxrss: 11364 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 2635 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 0 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ru_utime: 0 8352
+ru_stime: 0 16704
+ru_stime: 0 
+ru_maxrss: 21688 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 5202 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 1 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ru_utime: 0 12840
+ru_stime: 0 21401
+ru_stime: 0 
+ru_maxrss: 31984 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 7763 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 2 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ru_utime: 0 12899
+ru_stime: 0 30098
+ru_stime: 0 
+ru_maxrss: 42280 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 10324 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 3 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ru_utime: 0 12900
+ru_stime: 0 38701
+ru_stime: 0 
+ru_maxrss: 52576 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 12885 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 4 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ru_utime: 0 17527
+ru_stime: 0 48199
+ru_stime: 0 
+ru_maxrss: 62872 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 15446 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 5 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ru_utime: 0 17527
+ru_stime: 0 57345
+ru_stime: 0 
+ru_maxrss: 72904 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 18007 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 6 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ru_utime: 0 17527
+ru_stime: 0 69175
+ru_stime: 0 
+ru_maxrss: 83200 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 20568 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 7 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ru_utime: 0 17527
+ru_stime: 0 77804
+ru_stime: 0 
+ru_maxrss: 93496 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 23129 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 8 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ru_utime: 0 17527
+ru_stime: 0 92999
+ru_stime: 0 
+ru_maxrss: 103792 
+ru_ixrss: 0 
+ru_idrss: 0 
+ru_isrss: 0 
+ru_minflt: 25690 
+ru_majflt: 0 
+ru_nswap: 0 
+ru_inblock: 0 
+ru_oublock: 0 
+ru_msgsnd: 0 
+ru_msgrcv: 0 
+ru_nsignals: 0 
+ru_nvcsw: 9 
+ru_nivcsw: 0 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ru_maxrss grows every seconds

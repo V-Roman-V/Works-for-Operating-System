@@ -1,0 +1,4 @@
+Physical addresses are hardware memory addresses.
+Virtual addresses are the addresses of the virtual storage used by the processor.
+
+Virtual addresses may be the same as physical addresses or different. In the case of a difference, the memory management unit (MMU) maps the virtual addresses to the physical addresses. 

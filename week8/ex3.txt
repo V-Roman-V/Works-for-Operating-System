@@ -1,0 +1,4 @@
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND            
+11503 vromanv   20   0 6293980   5,2g    968 R  11,8  68,0   0:03.07 ex2.out      
+
+Resources grow every second, because i every second use calloc and memset. 

@@ -1,0 +1,1 @@
+If we have 16-bit virtual addresses and 8 KB pages, the lower 13 bits should specify the byte offset (0 to 8191) within the selected page, the remaining 3 bits specify one of the 8 virtual pages.
