@@ -1,0 +1,10 @@
+To increase the number of hits, identical pages must be repeated more often. For example, a sequence consisting only of identical pages will give only one miss in the first time, the rest will be hits. 
+To increase the number of misses, different pages must occur more often, or the same pages must be far apart. For example, a sequence consisting only of different pages will give all misses.
+
+Examples:
+ Hit:
+  seq1: 1 1 1 1 1 1 1 1 1 1 1 => hit = 10 miss = 1 ratio = 10.000000
+  seq2: 1 1 1 1 1 1 2 2 2 2 2 => hit = 9 miss = 2 ratio = 4.500000
+ Miss:
+	seq1: 1 2 3 4 5 6 7 8 9 10 11 => hit = 0 miss = 11 ratio = 0.000000
+	seq2: 1 2 3 4 5 6 1 2 3 4 5 6 => hit = 0 miss = 12 ratio = 0.000000 (pages < 6) or hit = 6 miss = 6 ratio = 1.000000 (pages >= 6 )
