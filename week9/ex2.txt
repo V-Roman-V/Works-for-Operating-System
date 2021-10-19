@@ -6,5 +6,5 @@ Examples:
   seq1: 1 1 1 1 1 1 1 1 1 1 1 => hit = 10 miss = 1 ratio = 10.000000
   seq2: 1 1 1 1 1 1 2 2 2 2 2 => hit = 9 miss = 2 ratio = 4.500000
  Miss:
-	seq1: 1 2 3 4 5 6 7 8 9 10 11 => hit = 0 miss = 11 ratio = 0.000000
-	seq2: 1 2 3 4 5 6 1 2 3 4 5 6 => hit = 0 miss = 12 ratio = 0.000000 (pages < 6) or hit = 6 miss = 6 ratio = 1.000000 (pages >= 6 )
+  seq1: 1 2 3 4 5 6 7 8 9 10 11 => hit = 0 miss = 11 ratio = 0.000000
+  seq2: 1 2 3 4 5 6 1 2 3 4 5 6 => hit = 0 miss = 12 ratio = 0.000000 (pages < 6) or hit = 6 miss = 6 ratio = 1.000000 (pages >= 6 )
