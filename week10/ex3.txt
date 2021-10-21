@@ -1,0 +1,6 @@
+mode of '_ex3.txt' retained as 0664 (rw-rw-r--)
+mode of '_ex3.txt' changed from 0664 (rw-rw-r--) to 0767 (rwxrw-rwx)
+mode of '_ex3.txt' changed from 0767 (rwxrw-rwx) to 0777 (rwxrwxrwx)
+660 gives read and write permissions to owner and group, removes all permissions to others
+775 gives all permissions to owner and group, read and execute permissions to others
+777 gives all permissions to everyone
