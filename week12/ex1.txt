@@ -1,0 +1,67 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+file contents '/proc/ioports' presented below
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0000-0000 : PCI Bus 0000:00
+  0000-0000 : dma1
+  0000-0000 : pic1
+  0000-0000 : timer0
+  0000-0000 : timer1
+  0000-0000 : keyboard
+  0000-0000 : PNP0C09:00
+    0000-0000 : EC data
+  0000-0000 : keyboard
+  0000-0000 : PNP0C09:00
+    0000-0000 : EC cmd
+  0000-0000 : rtc0
+  0000-0000 : dma page reg
+  0000-0000 : pic2
+  0000-0000 : dma2
+  0000-0000 : fpu
+    0000-0000 : PNP0C04:00
+  0000-0000 : iTCO_wdt
+  0000-0000 : pnp 00:02
+0000-0000 : PCI conf1
+0000-0000 : PCI Bus 0000:00
+  0000-0000 : pnp 00:02
+  0000-0000 : pnp 00:00
+    0000-0000 : ACPI PM1a_EVT_BLK
+    0000-0000 : ACPI PM1a_CNT_BLK
+    0000-0000 : ACPI PM_TMR
+    0000-0000 : ACPI CPU throttle
+    0000-0000 : ACPI PM2_CNT_BLK
+    0000-0000 : pnp 00:04
+    0000-0000 : ACPI GPE0_BLK
+  0000-0000 : pnp 00:01
+  0000-0000 : PCI Bus 0000:07
+    0000-0000 : 0000:07:00.1
+  0000-0000 : PCI Bus 0000:01
+    0000-0000 : 0000:01:00.0
+  0000-0000 : 0000:00:02.0
+  0000-0000 : 0000:00:1f.4
+    0000-0000 : i801_smbus
+  0000-0000 : 0000:00:17.0
+    0000-0000 : ahci
+  0000-0000 : 0000:00:17.0
+    0000-0000 : ahci
+  0000-0000 : 0000:00:17.0
+    0000-0000 : ahci
+  0000-0000 : pnp 00:02
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What are dma1, pic1, timer1?
+~~~~~
+DMA is an direct memory access device.
+It is needed to exchange data between devices and main memory independently of the (CPU).
+
+dma1 и dma2 are two devices on board.
+The difference between them depends on the system and the number of channels.
+~~~~~
+PIC is a peripheral interface controller port.
+It is needed to simplify the generation of driver control signals.
+
+pic1 и pic2 are two controllers on board.
+~~~~~
+timer is a hardware interrupt timer port.
+It is needed to create interrupts when an overflow occurs.
+
+timer0 and timer1 are two timers on board.
+The difference between them is the size and behavior

@@ -1,0 +1,8 @@
+Shortcuts:
+  [P,E]:	'I passed the Exam!'
+  [C,A,P]:	'Get some cappuccino!'
+  [I,W,S]:	'I want to sleep :('
+
+I passed the Exam!
+I want to sleep :(
+Get some cappuccino!
