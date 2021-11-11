@@ -15,9 +15,9 @@ void readM(FILE* fptr, int (*a)[PROCESS_COUNT][RESOURCE_COUNT]){
 			fscanf(fptr,"%i",&(*a)[i][j]);
 }
 
-char isMayFinish(int process, const int (* const C)[PROCESS_COUNT][RESOURCE_COUNT], const int (* const R)[PROCESS_COUNT][RESOURCE_COUNT], const int (* const A)[RESOURCE_COUNT]){
+char isMayFinish(int process, const int (* const R)[PROCESS_COUNT][RESOURCE_COUNT], const int (* const A)[RESOURCE_COUNT]){
 	for (int j = 0; j < RESOURCE_COUNT; j++) 
-		if ( (*R)[process][j] > (*A)[j] + (*C)[process][j])
+		if ( (*R)[process][j] > (*A)[j])
 			return 0;
 	return 1;
 }
@@ -42,7 +42,7 @@ int main(void) {
 
 	for (int k = 0; k < PROCESS_COUNT && ind < PROCESS_COUNT; k++)
 		for (int i = 0; i < PROCESS_COUNT; i++) 
-			if (!Finish[i] && isMayFinish(i,&C, &R, &A)) {
+			if (!Finish[i] && isMayFinish(i, &R, &A)) {
 				ans[ind++] = i;
 				for (int y = 0; y < RESOURCE_COUNT; y++)
 					A[y] += C[i][y];
